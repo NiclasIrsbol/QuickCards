@@ -1,0 +1,66 @@
+#appBar {
+    -fx-background-color: #00B7FF;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-font-size: 16px;
+}
+
+#setLabel {
+    -fx-text-fill: black;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+
+#flashcardsBox {
+    -fx-background-color: #00B7FF;
+    -fx-background-radius: 10px;
+    -fx-cursor: pointer;
+}
+
+#progressText {
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#prev_btn {
+    -fx-background-color: #FE5B5B;
+    -fx-background-radius: 5px;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#prev_btn:hover {
+    -fx-background-color: #fe7979;
+}
+
+#next_btn {
+    -fx-background-color: #FE5B5B;
+    -fx-background-radius: 5px;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#next_btn:hover {
+    -fx-background-color: #fe7979;
+}
+
+#back_btn {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#back_btn:hover {
+    -fx-background-color: #dcdcdc;
+}
+
+#flashcardLabel {
+    -fx-text-fill: white;
+    -fx-font-size: 34px;
+    -fx-font-weight: bold;
+}

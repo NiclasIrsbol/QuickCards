@@ -1,0 +1,104 @@
+#bottomBar {
+    -fx-background-color: #252525;
+}
+
+#topBar {
+    -fx-background-color: #37DF85;
+}
+
+#headerLabel {
+    -fx-text-fill: black;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+
+#back_btn {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#back_btn:hover {
+    -fx-background-color: #dcdcdc;
+}
+
+#deleteLabel1, #deleteLabel2, #deleteLabel3, #deleteLabel4, #deleteLabel5, #deleteLabel6 {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-color: #FE5B5B;
+    -fx-cursor: hand;
+}
+
+#deleteLabel1:hover, #deleteLabel2:hover, #deleteLabel3:hover, #deleteLabel4:hover, #deleteLabel5:hover, #deleteLabel6:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-scale-z: 1.1;
+}
+
+
+#editLabel1, #editLabel2, #editLabel3, #editLabel4, #editLabel5, #editLabel6 {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-color: #0195d0;
+    -fx-cursor: hand;
+}
+
+#editLabel1:hover, #editLabel2:hover, #editLabel3:hover, #editLabel4:hover, #editLabel5:hover, #editLabel6:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-scale-z: 1.1;
+}
+
+#setBox1 {
+    -fx-background-color: #00B7FF;
+}
+
+#setBox1:hover {
+    -fx-background-color: #51cdfe;
+}
+
+#setBox2 {
+    -fx-background-color: #37DF85;
+}
+
+#setBox2:hover {
+    -fx-background-color: #67feae;
+}
+
+#setBox3 {
+    -fx-background-color: #3D37DF;
+}
+
+#setBox3:hover {
+    -fx-background-color: #615ce6;
+}
+
+#setBox4 {
+    -fx-background-color: #FFAE00;
+}
+
+#setBox4:hover {
+    -fx-background-color: #ffc444;
+}
+
+#setBox5 {
+    -fx-background-color: #DF37B8;
+}
+
+#setBox5:hover {
+    -fx-background-color: #f87cdb;
+}
+
+#setBox6 {
+    -fx-background-color: #ff3333;
+}
+
+#setBox6:hover {
+    -fx-background-color: #ff8181;
+}
+
+

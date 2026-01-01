@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="666.0" stylesheets="@populateSetStylesheet.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.quickcards.populateSetController">
+   <children>
+      <AnchorPane fx:id="topBar" prefHeight="55.0" prefWidth="666.0">
+         <children>
+            <Button fx:id="back_btn" layoutX="14.0" layoutY="5.0" mnemonicParsing="false" onAction="#backtoMenu" prefHeight="43.0" prefWidth="72.0" text="Back" />
+            <Label fx:id="headerLabel" layoutX="295.0" layoutY="10.0" text="Create" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="add_btn" layoutX="268.0" layoutY="361.0" mnemonicParsing="false" onAction="#populateJSON" prefHeight="55.0" prefWidth="129.0" text="Add to set" />
+      <Line fx:id="line" endX="100.0" layoutX="323.0" layoutY="349.0" startX="-100.0" strokeWidth="5.0" />
+      <Line fx:id="line1" endX="100.0" layoutX="321.0" layoutY="232.0" startX="-100.0" strokeWidth="5.0" />
+      <TextField fx:id="wordField" layoutX="226.0" layoutY="193.0" promptText="Name of card - Front side" />
+      <TextArea fx:id="explArea" layoutX="226.0" layoutY="242.0" prefHeight="96.0" prefWidth="194.0" promptText="Explanation - Back side" />
+      <Line fx:id="line11" endX="100.0" layoutX="320.0" layoutY="149.0" startX="-100.0" strokeWidth="5.0" />
+      <Label fx:id="setName" layoutX="270.0" layoutY="101.0" prefHeight="45.0" prefWidth="148.0" text="Label">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="continue_btn" layoutX="523.0" layoutY="463.0" mnemonicParsing="false" onAction="#switchToBrowse" prefHeight="45.0" prefWidth="129.0" text="Continue" />
+   </children>
+</AnchorPane>

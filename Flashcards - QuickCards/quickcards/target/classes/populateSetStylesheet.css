@@ -1,0 +1,68 @@
+#topBar {
+    -fx-background-color: #00B7FF;
+}
+
+#headerLabel {
+    -fx-text-fill: black;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+
+#back_btn {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#back_btn:hover {
+    -fx-background-color: #dcdcdc;
+}
+
+#add_btn {
+    -fx-background-color: #00B7FF;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#next_btn {
+    -fx-background-color: #FE5B5B;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#add_card {
+    -fx-background-color: #5bfeb2;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#delete_btn {
+    -fx-background-color: #f50909;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+
+#wordField {
+    -fx-background-color: transparent;
+    -fx-border-radius: 10px;
+    -fx-font-size: 16px;
+}
+
+#continue_btn {
+    -fx-background-color: #37DF85;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane fx:id="window" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="666.0" stylesheets="@browseSceneStyle.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.quickcards.browseSceneController">
+   <children>
+      <HBox fx:id="bottomBar" layoutY="476.0" prefHeight="53.0" prefWidth="666.0" />
+      <GridPane fx:id="gridpane" gridLinesVisible="true" layoutX="85.0" layoutY="120.0" prefHeight="314.0" prefWidth="493.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="256.33333333333337" minWidth="10.0" prefWidth="248.33333333333334" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="256.33333333333337" minWidth="10.0" prefWidth="248.33333333333334" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="247.0" minWidth="10.0" prefWidth="244.33333333333334" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <AnchorPane fx:id="setBox1" onMouseClicked="#setBox1Pressed" prefHeight="189.0" prefWidth="274.0" userData="box1">
+               <children>
+                  <Label fx:id="countLabel1" layoutX="14.0" layoutY="14.0" text="Label" />
+                  <Label fx:id="nameLabel1" layoutX="69.0" layoutY="70.0" text="Label" />
+                  <Button fx:id="deleteLabel1" layoutX="97.0" layoutY="10.0" onAction="#setDelete" prefHeight="17.0" prefWidth="54.0" text="Delete" />
+                  <Button fx:id="editLabel1" layoutX="105.0" layoutY="117.0" onAction="#setEdit" text="Edit" />
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </AnchorPane>
+            <AnchorPane fx:id="setBox2" onMouseClicked="#setBox2Pressed" prefHeight="189.0" prefWidth="274.0" userData="box2" GridPane.columnIndex="1">
+               <children>
+                  <Label fx:id="countLabel2" layoutX="14.0" layoutY="14.0" text="Label" />
+                  <Label fx:id="nameLabel2" layoutX="69.0" layoutY="70.0" text="Label" />
+                  <Button fx:id="deleteLabel2" layoutX="97.0" layoutY="10.0" onAction="#setDelete" text="Delete" />
+                  <Button fx:id="editLabel2" layoutX="105.0" layoutY="117.0" onAction="#setEdit" text="Edit" />
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </AnchorPane>
+            <AnchorPane fx:id="setBox3" onMouseClicked="#setBox3Pressed" prefHeight="189.0" prefWidth="274.0" userData="box3" GridPane.columnIndex="2">
+               <children>
+                  <Label fx:id="countLabel3" layoutX="14.0" layoutY="14.0" text="Label" />
+                  <Label fx:id="nameLabel3" layoutX="69.0" layoutY="70.0" text="Label" />
+                  <Button fx:id="deleteLabel3" layoutX="97.0" layoutY="10.0" onAction="#setDelete" text="Delete" />
+                  <Button fx:id="editLabel3" layoutX="105.0" layoutY="117.0" onAction="#setEdit" text="Edit" />
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </AnchorPane>
+            <AnchorPane fx:id="setBox4" onMouseClicked="#setBox4Pressed" prefHeight="189.0" prefWidth="274.0" userData="box4" GridPane.rowIndex="1">
+               <children>
+                  <Label fx:id="countLabel4" layoutX="14.0" layoutY="14.0" text="Label" />
+                  <Label fx:id="nameLabel4" layoutX="69.0" layoutY="70.0" text="Label" />
+                  <Button fx:id="deleteLabel4" layoutX="97.0" layoutY="10.0" onAction="#setDelete" text="Delete" />
+                  <Button fx:id="editLabel4" layoutX="105.0" layoutY="117.0" onAction="#setEdit" text="Edit" />
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </AnchorPane>
+            <AnchorPane fx:id="setBox5" onMouseClicked="#setBox5Pressed" prefHeight="189.0" prefWidth="274.0" userData="box5" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <Label fx:id="countLabel5" layoutX="14.0" layoutY="14.0" text="Label" />
+                  <Label fx:id="nameLabel5" layoutX="69.0" layoutY="70.0" text="Label" />
+                  <Button fx:id="deleteLabel5" layoutX="97.0" layoutY="14.0" onAction="#setDelete" text="Delete" />
+                  <Button fx:id="editLabel5" layoutX="105.0" layoutY="117.0" onAction="#setEdit" text="Edit" />
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </AnchorPane>
+            <AnchorPane fx:id="setBox6" onMouseClicked="#setBox6Pressed" prefHeight="189.0" prefWidth="274.0" userData="box6" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <children>
+                  <Label fx:id="countLabel6" layoutX="14.0" layoutY="14.0" text="Label" />
+                  <Label fx:id="nameLabel6" layoutX="69.0" layoutY="70.0" text="Label" />
+                  <Button fx:id="deleteLabel6" layoutX="97.0" layoutY="10.0" onAction="#setDelete" text="Delete" />
+                  <Button fx:id="editLabel6" layoutX="105.0" layoutY="117.0" onAction="#setEdit" text="Edit" />
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </AnchorPane>
+         </children>
+      </GridPane>
+      <AnchorPane fx:id="topBar" layoutX="-1.0" prefHeight="55.0" prefWidth="666.0">
+         <children>
+            <Button fx:id="back_btn" layoutX="14.0" layoutY="5.0" mnemonicParsing="false" onAction="#backtoMenu" prefHeight="43.0" prefWidth="72.0" text="Back" />
+            <Label fx:id="headerLabel" layoutX="301.0" layoutY="9.0" text="Browse" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
